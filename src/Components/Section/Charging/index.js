@@ -14,7 +14,7 @@ export default function index() {
             <h2>Charging</h2>
           </div>
           <span className="description">
-            Charge your Tesla using our charge stations.
+            Charge your car using our charge stations.
           </span>
           <div className="stats">
             <Stat icon={faChargingStation} title="Charge anywhere." description="Charge at our designated car fast chargers." />

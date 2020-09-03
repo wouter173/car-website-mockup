@@ -12,7 +12,7 @@ export default function index() {
 						<h1>AutoPilot</h1>
 						<h2>AutoPilot</h2>
 					</div>
-					<span className="description">Let your Tesla do the work.</span>
+					<span className="description">Let your car do the work.</span>
 					<div className="stats">
 						<Stat icon={faTrafficLight} title="AutoPilot" description="Your car steers, accelerates, and breaks. All by itself." />
 						<Stat icon={faCircleNotch} title="360˚ view" description="Ensures yours and others' safety" />

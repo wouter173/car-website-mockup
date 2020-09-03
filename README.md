@@ -1,6 +1,7 @@
-# Tesla car viewer
+# Car webdesign mockup
 <small>UI/ UX design for a car company that sells electric cars.</small>
-Live version [here](https://wouterdb.nl).
+Live version [here](https://car-mockup.wouterdb.nl/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e91bc45d-6c0e-4f13-81ca-6762d5264d04/deploy-status)](https://app.netlify.com/sites/car-website-mockup/deploys)
 
 ### Designer
 
@@ -13,9 +14,11 @@ I used scss because I had a lot of nested styles which I like to organize using 
 I used font awesome icons in the mockup because they had everything I needed and integrated seamlessly in the already existing project.
 I accessed the icons via the [@fortawesome/react-fontawesome](https://www.npmjs.com/package/@fortawesome/react-fontawesome) package on npm.
 
+For the deployment of the website I used Netlify for a fast and static cdn so my mockup is accessable everywhere. 
+
 ### Info
 
-You can see a live version [here](https://wouterdb.nl).
+You can see a live version [here](https://car-mockup.wouterdb.nl/).
 All the placeholder images and statistics come from from the official Tesla presskit.
 
 #### Running
