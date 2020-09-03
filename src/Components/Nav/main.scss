@@ -1,0 +1,47 @@
+nav {
+	display: grid;
+	height: 80px;
+	width: 100vw;
+
+	grid-template-columns: 5% 100px calc(60% - 100px) auto 5%;
+	
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	color: var(--light-text);
+
+	transition: background 0.2s;
+
+	&.solid {
+		background: var(--light-primary);
+	}
+
+	.logo {
+		grid-column: 2/3;
+		background-image: url("/svg/logo.svg");
+
+		&.dark {
+			filter: invert(0.7);
+		}
+	}
+
+	.links {
+		grid-column: 4/5;
+		font-size: 1em;
+		line-height: 80px;
+		position: relative;
+		display: flex;
+
+		a {
+			font-weight: 400;
+			display: block;
+			width: 25%;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		&.dark a{
+			color: var(--dark-text);
+		}
+	}
+}

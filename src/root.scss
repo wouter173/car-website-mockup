@@ -1,0 +1,23 @@
+:root {
+	--light-primary: #efefef;
+	--light-secundairy: #d4d4d8;
+
+	--light-text: #efefef;
+	--dark-text: #363636;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	color: var(--light-text);
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+	cursor: pointer;
+}
+
+.App {
+	background: var(--light-primary);
+}

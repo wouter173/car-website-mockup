@@ -1,0 +1,66 @@
+#Header {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+
+	.background {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+	}
+
+	.content {
+		position: absolute;
+		z-index: 5;
+		
+		top: 240px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+
+		h1 {
+			color: var(--dark-text);
+		}
+
+		button {
+			margin-top: 1em;
+			padding: 2pt 1em;
+
+			background: none;
+			border: 1px solid var(--dark-text);
+			border-radius: 16px;
+
+			color: var(--dark-text);
+			font-size: 0.8em;
+
+			transition: background 0.2s, color 0.2s;
+
+			&:hover {
+				background: var(--dark-text);
+				color: var(--light-text);
+			}
+		}
+	}
+
+	.scroll {
+		width: 100vw;
+		height: auto;
+		position: absolute;
+		z-index: 1;
+		bottom: 10%;
+
+		.icon {
+			text-align: center;
+			width: 20px;
+			height: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			transition: transform 0.2s;
+
+			&:hover {
+				transform: translateY(-5px);
+			}
+		}
+	}
+}
